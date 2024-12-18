@@ -25,7 +25,6 @@ const About = () => {
                     <p className="text-gray-600">plus tow Biology science</p>
                     <p className="text-gray-500">2022 - 2024</p>
                   </div>
-                  {/* Add more education items if needed */}
                 </div>
               </div>
               
@@ -45,7 +44,6 @@ const About = () => {
                       <li>Built performant applications with Next.js</li>
                     </ul>
                   </div>
-                  {/* Add more experience items if needed */}
                 </div>
               </div>
             </div>

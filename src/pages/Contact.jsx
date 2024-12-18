@@ -9,18 +9,16 @@ const Contact = () => {
     message: '',
   });
 
-  const [status, setStatus] = useState(''); // to show success or error message
+  const [status, setStatus] = useState(''); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Form validation check
     if (!formData.name || !formData.email || !formData.message) {
       setStatus('Please fill in all fields.');
       return;
     }
 
-    // Simulating the API call (Replace with actual API call to backend)
     setTimeout(() => {
       setStatus('Message sent successfully!');
 
