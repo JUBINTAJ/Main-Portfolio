@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function NotFound() {
+const NotFound = () => {
   return (
     <>
       <style>
@@ -19,7 +19,7 @@ function NotFound() {
                 <h1 className="text-8xl text-center text-black">404</h1>
               </div>
               <div className="text-center mt-[-50px]">
-                <h3 className="text-4xl">Look like you're lost</h3>
+                <h3 className="text-4xl">Looks like you're lost</h3>
                 <p className="mt-4 text-lg">The page you are looking for is not available!</p>
                 <a
                   href="/"
@@ -31,12 +31,9 @@ function NotFound() {
             </div>
           </div>
         </div>
-
-
-        
       </section>
     </>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;
