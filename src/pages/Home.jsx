@@ -30,7 +30,7 @@ const Home = () => {
                 className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="jubiiitaj@example.com"
+              <a href="jubiiitaj@gmail.com"
                 className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors">
                 <Mail size={24} />
               </a>
