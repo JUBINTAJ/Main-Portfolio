@@ -52,7 +52,7 @@ const Contact = () => {
                   <div className="flex items-center">
                     <Mail className="text-blue-600 mr-3" size={20} />
                     <a href="mailto:jubiiitaj@example.com" className="text-gray-600 hover:text-blue-600">
-                      jubiiitaj@example.com
+                      jubintajj@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center">

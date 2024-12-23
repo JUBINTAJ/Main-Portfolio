@@ -22,7 +22,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-medium">Ssmhss Theyyalingal</h4>
-                    <p className="text-gray-600">plus tow Biology science</p>
+                    <p className="text-gray-600"> Biology science</p>
                     <p className="text-gray-500">2022 - 2024</p>
                   </div>
                 </div>
