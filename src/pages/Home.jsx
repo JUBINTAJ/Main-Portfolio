@@ -19,40 +19,44 @@ const Home = () => {
               Frontend Developer
             </h2>
             <p className="text-gray-600 mb-8 text-lg">
-            I enjoy building fast, visually appealing websites with the latest technologies. I specialize in Html, CSS, JavaScript, React, Redux, Zustand, TypeScript, and Next.js to create smooth, user-friendly web apps that perform great across all devices.
+              I enjoy building fast, visually appealing websites with the latest technologies. I specialize in Html, CSS, JavaScript, React, Redux, Zustand, TypeScript, and Next.js to create smooth, user-friendly web apps that perform great across all devices.
             </p>
-            <div >
-
+            <div>
               <div className="flex space-x-4">
-
-              <a href="https://github.com/JUBINTAJ" target="_blank" rel="noopener noreferrer"
-                className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors">
-                <Github size={24} />
-              </a>
-              <a href="https://www.linkedin.com/in/jubin-taj/" target="_blank" rel="noopener noreferrer"
-                className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors">
-                <Linkedin size={24} />
-              </a>
-              <a href="mailto:jubintajj@gmail.com"
-                className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors">
-                <Mail size={24} />
-              </a>
-                  </div>
-                  <br />
-
-              <div className=''>
-
-              <a
-                href="public\JUBIN TAJ - CV.pdf"
-                download="Jubin_Taj_Resume.pdf"
-                className="p-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors"
-              >
-                Download Resume
-              </a>
+                <a
+                  href="https://github.com/JUBINTAJ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors"
+                >
+                  <Github size={24} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jubin-taj/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors"
+                >
+                  <Linkedin size={24} />
+                </a>
+                <a
+                  href="mailto:jubintajj@gmail.com"
+                  className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors"
+                >
+                  <Mail size={24} />
+                </a>
               </div>
+              <br />
 
-
-
+              <div>
+                <a
+                  href="/JUBIN TAJ - CV.pdf"  
+                  download="Jubin_Taj_Resume.pdf"
+                  className="p-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors"
+                >
+                  Download Resume
+                </a>
+              </div>
             </div>
           </motion.div>
 
