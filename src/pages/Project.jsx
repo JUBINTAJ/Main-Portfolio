@@ -18,6 +18,14 @@ const projects = [
     githubUrl: 'https://github.com/JUBINTAJ/thread-clone',
     liveUrl: '#',
   },
+  {
+    title: 'Refurbished Electronics (On going)',
+    description: 'Refurbished Electronics Marketplace is an online platform designed to buy and sell refurbished electronics like mobiles, laptops, earphones, watches, speakers, and cameras. The platform features four distinct user roles: Admin, User, Vendor, and Delivery Boy, each with specific functionalities. Admins manage the entire marketplace, users can browse and purchase products, vendors list their refurbished goods, and delivery personnel track and manage shipments. With a focus on security, easy navigation, and efficient order management, the platform provides a seamless experience for both customers and sellers. The app ensures competitive pricing, warranty options, and reliable post-purchase support, making it a one-stop destination for high-quality refurbished electronics',
+    image: '9015d229-efdf-4f15-a48a-54607e55ddb7.jpg',
+    technologies: ['Next js','Type script','Redux', 'Tailwind'],
+    githubUrl: 'https://github.com/JUBINTAJ/thread-clone',
+    liveUrl: '#',
+  },
 
 
 ];

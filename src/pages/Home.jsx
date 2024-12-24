@@ -19,9 +19,12 @@ const Home = () => {
               Frontend Developer
             </h2>
             <p className="text-gray-600 mb-8 text-lg">
-            "I enjoy building fast, visually appealing websites with the latest technologies. I specialize in Html ,Css,JavaScript,React,Redux,Zustand, TypeScript, and Next.js to create smooth, user-friendly web apps that perform great across all devices."
+            I enjoy building fast, visually appealing websites with the latest technologies. I specialize in Html, CSS, JavaScript, React, Redux, Zustand, TypeScript, and Next.js to create smooth, user-friendly web apps that perform great across all devices.
             </p>
-            <div className="flex space-x-4">
+            <div >
+
+              <div className="flex space-x-4">
+
               <a href="https://github.com/JUBINTAJ" target="_blank" rel="noopener noreferrer"
                 className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors">
                 <Github size={24} />
@@ -34,9 +37,25 @@ const Home = () => {
                 className="p-2 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors">
                 <Mail size={24} />
               </a>
+                  </div>
+                  <br />
+
+              <div className=''>
+
+              <a
+                href="public\JUBIN TAJ - CV.pdf"
+                download="Jubin_Taj_Resume.pdf"
+                className="p-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors"
+              >
+                Download Resume
+              </a>
+              </div>
+
+
+
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
